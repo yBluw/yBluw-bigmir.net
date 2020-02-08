@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<link href='aaa.css'>
+		<title></title>
+		<style>
+			Body {padding: 0;
+			margin: 0;
+			font-family: cursive;}
+			
+			.ramka {border: 5px solid blue;
+			width: 40%;
+			margin: 0 auto;
+			margin-top: 200px;}
+
+			.forma {background: white;
+			width: 40%;
+			margin: 0 auto;
+			padding-top: 10px;}
+
+			input[type=text],[type=password]
+			{border-radius: 7px;
+			background: blue;
+			color: white;}
+			
+			a {text-decoration: none;
+			color: black;
+			font-size: 20px;
+			margin: 10px;}
+		
+			a:hover{color: red;}
+			
+			imput:valid{backkground: light-green;}
+			
+			input:invalid{background: lightred;}
+			
+			h1 {background: linear-gradient(to right, white, blue);}
+		
+			input[type=submit],[type=reset]{background: linear-gradient(to right, white, blue);
+			padding: 13px;
+			color: white;
+			border-radius: 10px;}
+		
+			input[type=submit]:hover{background: linear-gradient(to right, blue, white;)}
+		</style>
+	</head>
+	<body>
+	<h1><a>Анкета</a><a>Результат</a></h1>	
+	<div class='ramka' align='center'>	
+		<h1>Анкета Участника</h1>
+		<form action='Z4.html'>
+		
+		<div class='forma'>
+		
+		<label>Class</label></br>
+		<input type='number' min='1' max='12' required><br><br>
+		
+			
+		<label>Ім'я</label><br><br>
+		<input type='text' required><br><br>
+		
+		<label>Пароль</label><br><br>
+		<input type='Password' required><br><br>
+		
+		<label>Які мови ви знаєте?</label><br><br>
+		<input type='checkbox'> Українська<br><br>
+		<input type='checkbox'> Російська<br><br>
+		<input type='checkbox'> Англійська<br><br>
+		
+		<input type='submit'>
+		
+		<input type='reset'><br></br>
+		</div>
+		
+		</form>
+		<h3>Не маєте аккаунту?,<br> <a href='#'>Зарегеструватися</a></h3>
+	</div>
+	</body>
+</html>
